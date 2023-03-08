@@ -8,14 +8,14 @@
 .container {
     width: 100%;
     height: 100vh;
-    background: #808080;
+    background: #ECFFDC;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .calculator {
-    background: #28282B;
+    background: #141414;
     padding: 20px;
     border-radius: 10px;
 }
@@ -45,6 +45,7 @@ form .display input {
     flex: 1;
     font-size: 45px;
     box-shadow: none;
+    background-color: #28282B;
 }
 
 form input.equal {
@@ -53,5 +54,4 @@ form input.equal {
 
 form input.operator {
     color: #33ffd8;
-    
 }
